@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/dashboardFragment">
+
+    <fragment
+        android:id="@+id/dashboardFragment"
+        android:name="com.mathra.keyboard.dashboard.DashboardFragment"
+        android:label="Dashboard">
+        <action
+            android:id="@+id/action_dashboard_to_themeGallery"
+            app:destination="@id/themeGalleryFragment" />
+        <action
+            android:id="@+id/action_dashboard_to_languageSettings"
+            app:destination="@id/languageSettingsFragment" />
+        <action
+            android:id="@+id/action_dashboard_to_emojiSettings"
+            app:destination="@id/emojiSettingsFragment" />
+        <action
+            android:id="@+id/action_dashboard_to_aiSettings"
+            app:destination="@id/aiSettingsFragment" />
+        <action
+            android:id="@+id/action_dashboard_to_privacySettings"
+            app:destination="@id/privacySettingsFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/themeGalleryFragment"
+        android:name="com.mathra.keyboard.dashboard.ThemeGalleryFragment"
+        android:label="Themes" />
+    <fragment
+        android:id="@+id/languageSettingsFragment"
+        android:name="com.mathra.keyboard.dashboard.LanguageSettingsFragment"
+        android:label="Language" />
+    <fragment
+        android:id="@+id/emojiSettingsFragment"
+        android:name="com.mathra.keyboard.dashboard.EmojiSettingsFragment"
+        android:label="Emoji" />
+    <fragment
+        android:id="@+id/aiSettingsFragment"
+        android:name="com.mathra.keyboard.dashboard.AiSettingsFragment"
+        android:label="AI Assistant" />
+    <fragment
+        android:id="@+id/privacySettingsFragment"
+        android:name="com.mathra.keyboard.dashboard.PrivacySettingsFragment"
+        android:label="Privacy" />
+</navigation>

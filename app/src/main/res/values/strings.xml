@@ -1,0 +1,79 @@
+<resources>
+    <string name="app_name">Mathra Keyboard</string>
+    <string name="ime_label">Mathra Keyboard</string>
+
+    <!-- Subtypes -->
+    <string name="subtype_en">English (QWERTY)</string>
+    <string name="subtype_si">සිංහල (Unicode)</string>
+    <string name="subtype_singlish">Singlish → සිංහල</string>
+
+    <!-- Dashboard -->
+    <string name="dashboard_title">Mathra Keyboard</string>
+    <string name="keyboard_status_enabled">✓ Keyboard Enabled</string>
+    <string name="keyboard_status_disabled">Keyboard Not Enabled</string>
+    <string name="keyboard_status_selected">✓ Set as Default</string>
+    <string name="keyboard_status_not_selected">Not Set as Default</string>
+    <string name="btn_enable_keyboard">Enable Keyboard</string>
+    <string name="btn_select_keyboard">Set as Default</string>
+    <string name="btn_themes">Themes</string>
+    <string name="btn_language">Language Settings</string>
+    <string name="btn_emoji_settings">Emoji Settings</string>
+    <string name="btn_font_settings">Font Settings</string>
+    <string name="btn_sound_vibration">Sound &amp; Vibration</string>
+    <string name="btn_ai_settings">AI Assistant</string>
+    <string name="btn_privacy">Privacy Settings</string>
+    <string name="btn_about">About Mathra</string>
+
+    <!-- Keyboard -->
+    <string name="key_space">Space</string>
+    <string name="key_enter">Enter</string>
+    <string name="key_delete">⌫</string>
+    <string name="key_shift">⇧</string>
+    <string name="key_lang">🌐</string>
+    <string name="key_emoji">😊</string>
+    <string name="key_numbers">123</string>
+    <string name="key_letters">ABC</string>
+
+    <!-- About -->
+    <string name="about_title">About Mathra</string>
+    <string name="about_developer">Developer</string>
+    <string name="developer_name">දෙනුවන් ආකාශ්</string>
+    <string name="contact_number">0783756055</string>
+    <string name="about_version">Version</string>
+    <string name="about_privacy">Privacy Policy</string>
+    <string name="about_licenses">Open Source Licenses</string>
+    <string name="about_support">Support</string>
+    <string name="about_description">A premium Sinhala + English keyboard for Sri Lankan users, with Singlish transliteration, themes, emoji, and optional AI writing assistance.</string>
+
+    <!-- AI -->
+    <string name="ai_title">AI Assistant</string>
+    <string name="ai_enable">Enable AI Assistant</string>
+    <string name="ai_api_key">API Key (stored securely)</string>
+    <string name="ai_endpoint">API Endpoint URL</string>
+    <string name="ai_consent">Text you highlight will be sent to the AI for processing. No text is sent automatically.</string>
+    <string name="ai_loading">Processing…</string>
+    <string name="ai_error">AI request failed. Check your internet and API key.</string>
+    <string name="ai_improve">Improve Writing</string>
+    <string name="ai_translate">Translate</string>
+    <string name="ai_grammar">Fix Grammar</string>
+
+    <!-- Privacy -->
+    <string name="privacy_title">Privacy Settings</string>
+    <string name="privacy_no_keystroke_logging">Mathra Keyboard does not log your keystrokes.</string>
+    <string name="privacy_ai_note">AI requests are only sent when you explicitly tap the AI Assist button. Password fields are always excluded.</string>
+
+    <!-- Themes -->
+    <string name="theme_dark_neon">Dark Neon</string>
+    <string name="theme_purple_galaxy">Purple Galaxy</string>
+    <string name="theme_cyan_glow">Cyan Glow</string>
+    <string name="theme_amoled">Midnight AMOLED</string>
+    <string name="theme_light">Light</string>
+
+    <!-- Settings -->
+    <string name="settings_keyboard_height">Keyboard Height</string>
+    <string name="settings_key_sound">Key Sound</string>
+    <string name="settings_vibration">Vibration Feedback</string>
+    <string name="settings_autocorrect">Autocorrect</string>
+    <string name="settings_suggestions">Word Suggestions</string>
+    <string name="settings_singlish">Singlish Mode</string>
+</resources>
